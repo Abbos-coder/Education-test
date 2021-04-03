@@ -1,0 +1,25 @@
+.header {
+
+	&__top {
+		display: flex;
+	}
+
+	&__logo {
+		margin-right: 26px;
+	}
+
+	&__logo--subtitle {
+		font-family: Inter;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 12px;
+		line-height: 18px;
+		letter-spacing: -0.05px;
+		color: #738099;
+	}
+	&__dropdown {
+		margin-left: auto;
+		padding: 0 20px;
+	}
+
+}

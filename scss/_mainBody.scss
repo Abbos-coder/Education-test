@@ -1,0 +1,275 @@
+.main {
+	display: flex;
+	justify-content: space-around;
+
+	&__text-blog {
+		max-width: 514px;
+		min-width: 320px;
+		margin-right: 25px;
+	}
+
+	&__text-blog--title {
+		display: flex;
+		align-items: center;
+		font-weight: bold;
+		font-size: 24px;
+		line-height: 30px;
+		color: #181818;
+		padding-bottom: 20px;
+		border-bottom: 1px solid #edeff2;
+		span {
+			width: 8px;
+			height: 8px;
+			border-radius: 50%;
+			margin-right: 12px;
+			background: #f4900c;
+		}
+	}
+
+	&__text-blog--item {
+		padding: 20px 0;
+		display: flex;
+		justify-content: space-between;
+		border-bottom: 1px solid #edeff2;
+	}
+
+	&__text-blog--info {
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 19px;
+		color: #181818;
+	}
+
+	&__text-blog--btn {
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 17px;
+		color: #738099;
+	}
+	.btn {
+		border: 1px solid #ccc;
+		transition: all ease-in 0.2s;
+		width: 160px;
+		&:hover {
+			background: #2681ff;
+			color: #fff;
+		}
+	}
+}
+// readed blog styles
+.main {
+	&__text-blog--readed {
+		margin-bottom: 50px;
+	}
+
+	&__text-blog--block {
+		background: #f8f9fb;
+		border: 1px solid #dfe1e5;
+		padding: 0 20px;
+	}
+
+	&__text-blog--items {
+		border-bottom: 1px solid #dfe1e5;
+		padding-top: 20px;
+		&:last-child {
+			border-bottom: 0;
+		}
+	}
+
+	&__text-blog--items-title {
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 19px;
+		color: #181818;
+		margin-bottom: 15px;
+	}
+
+	&__text-blog--items-date {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 20px;
+
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 17px;
+		color: #9b9fab;
+	}
+}
+// edeucation info card styles
+.main {
+	&__text-blog--edu {
+		border: 1px solid #edeff2;
+		padding: 30px;
+		position: relative;
+	}
+
+	&__text-blog--edu-title {
+		font-weight: bold;
+		font-size: 24px;
+		line-height: 30px;
+		color: #181818;
+	}
+
+	&__text-blog--edu-subtitle {
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 24px;
+		color: #3a404e;
+		margin: 15px 0 20px;
+	}
+
+	&__text-blog--edu-btn {
+	}
+	.elements {
+		.right {
+			position: absolute;
+			right: 0;
+			bottom: 0;
+		}
+		.left {
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+	}
+}
+//images blog or news this
+.main {
+	&__image-blog {
+		margin-left: 25px;
+		border-bottom: 1px solid #edeff2;
+		margin-bottom: 50px;
+	}
+	&__image-blog--body {
+		margin-top: 20px;
+		max-width: 722px;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	&__image-blog--cards {
+		max-width: 346px;
+		margin-bottom: 30px;
+	}
+
+	&__image-blog--cards-img {
+		position: relative;
+		.image-info {
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			padding: 10px 20px;
+			font-weight: 500;
+			font-size: 14px;
+			color: #ffffff;
+			background: #2681ff;
+		}
+	}
+
+	&__image-blog--cards-date {
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 17px;
+		color: #9b9fab;
+		margin: 15px 0 10px;
+	}
+
+	&__image-blog--cards-subtitle {
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 19px;
+		color: #3a404e;
+	}
+	&__image-blog--btn {
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 17px;
+		color: #738099;
+		padding: 15px;
+	}
+}
+
+.grants {
+	background: #f8f9fb;
+	padding: 50px 0;
+
+	&__body {
+	}
+
+	&__title {
+		font-weight: bold;
+		font-size: 24px;
+		line-height: 30px;
+		color: #181818;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-bottom: 20px;
+		border-bottom: 1px solid #dfe1e5;
+		margin-bottom: 30px;
+
+		span {
+			width: 8px;
+			height: 8px;
+			border-radius: 50%;
+			background: #f4900c;
+			margin-left: 12px;
+		}
+	}
+
+	&__title-btn {
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 17px;
+		color: #2681ff;
+		text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+
+	&__cards {
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+
+	&__card {
+		max-width: 302px;
+		margin-bottom: 30px;
+	}
+
+	&__card--image {
+		position: relative;
+	}
+
+	&__card--img-pos {
+		position: absolute;
+		left: 0;
+		bottom: 0px;
+
+		font-weight: 500;
+		font-size: 14px;
+		background-color: #2681ff;
+		padding: 10px 20px;
+		color: #ffffff;
+	}
+
+	&__card-date {
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 17px;
+		color: #9b9fab;
+		margin: 15px 0px 10px 0px;
+		span {
+			color: #1a78fb;
+		}
+	}
+
+	&__card-subtitle {
+		font-weight: 500;
+		font-size: 16px;
+		color: #3a404e;
+	}
+}
